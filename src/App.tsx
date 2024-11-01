@@ -1,10 +1,9 @@
-import Popup from "@/popup";
+import Popup from "@/popup"
 
 function App() {
-  
   return (
     <>
-      <Popup/>
+      <Popup />
     </>
   )
 }
