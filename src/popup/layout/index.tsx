@@ -1,12 +1,12 @@
-import { Outlet, } from "react-router-dom";
-import SideBar from "@/popup/components/side-bar";
+import SideBar from "@/popup/components/side-bar"
+import { Outlet } from "react-router-dom"
 
 const Layout = () => {
   return (
     <div>
-      <SideBar/>
+      <SideBar />
       <div className="">
-        <Outlet/>
+        <Outlet />
       </div>
     </div>
   )
